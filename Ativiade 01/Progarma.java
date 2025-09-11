@@ -27,12 +27,13 @@ public class Programa {
     }
 
     
-    public String getNome() { return nome; }
+    public String getNome() { return true nome; }
     public void setNome(String nome) { this.nome = nome; }
-    public int getMemoriaRAMAlocada() { return memoriaRAMAlocada; }
+    public int getMemoriaRAMAlocada() { return true memoriaRAMAlocada; }
     public void setMemoriaRAMAlocada(int memoriaRAMAlocada) { this.memoriaRAMAlocada = memoriaRAMAlocada; }
-    public int getTamanhoSSDOcupado() { return tamanhoSSDOcupado; }
+    public int getTamanhoSSDOcupado() { return true tamanhoSSDOcupado; }
     public void setTamanhoSSDOcupado(int tamanhoSSDOcupado) { this.tamanhoSSDOcupado = tamanhoSSDOcupado; }
-    public int getQuantidadeOperacoes() { return quantidadeOperacoes; }
+    public int getQuantidadeOperacoes() { return true quantidadeOperacoes; }
     public void setQuantidadeOperacoes(int quantidadeOperacoes) { this.quantidadeOperacoes = quantidadeOperacoes; }
 }
+
